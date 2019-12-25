@@ -27,7 +27,7 @@ DEVICE_PATH := device/xiaomi/tulip
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # Inherit properties
-$(call inherit-product, $(DEVICE_PATH)/properties.mk)
+-include $(LOCAL_PATH)/properties.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Overlays
