@@ -127,7 +127,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.sf.lcd_density=440 \
+    ro.sf.lcd_density=440 \
     debug.sf.early_app_phase_offset_ns=1500000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
@@ -135,7 +135,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.enable_gl_backpressure=1 \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=1 \
-    debug.sf.latch_unsignaled=1 \
+    debug.sf.latch_unsignaled=0 \
     ro.opengles.version=196610 \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
