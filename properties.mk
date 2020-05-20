@@ -103,7 +103,22 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.preview.ubwc=0 \
     vendor.video.disable.ubwc=1 \
-    vidc.enc.dcvs.extra-buff-count=2
+    vidc.enc.dcvs.extra-buff-count=2 \
+	persist.vendor.bokeh.switch.lux=290 \
+    persist.vendor.camera.HAL3.enabled=1 \
+    persist.vendor.camera.depth.focus.cb=0 \
+    persist.vendor.camera.exif.make=Xiaomi \
+    persist.vendor.camera.expose.aux=1 \
+    persist.vendor.camera.imglib.usefdlite=1 \
+    persist.vendor.camera.isp.clock.optmz=0 \
+    persist.vendor.camera.isp.turbo=1 \
+    persist.vendor.camera.linkpreview=0 \
+    persist.vendor.camera.preview.ubwc=0 \
+    persist.vendor.camera.stats.test=0 \
+    persist.vendor.imx376_ofilm.light.lux=275 \
+    persist.vendor.imx376_ofilm.low.lux=290 \
+    persist.vendor.imx376_sunny.light.lux=275 \
+    persist.vendor.imx376_sunny.low.lux=290
 
 # CNE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -111,6 +126,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.lcd_density=440 \
     debug.sf.early_app_phase_offset_ns=1500000 \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_gl_phase_offset_ns=3000000 \
