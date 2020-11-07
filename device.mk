@@ -372,6 +372,7 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.tulip-libperfmgr \
+    android.hardware.power.stats@1.0-service.mock \
     libqti-perfd-client
 
 PRODUCT_COPY_FILES += \
