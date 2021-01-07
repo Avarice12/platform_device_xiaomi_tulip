@@ -1,2 +1,4 @@
 #============= system_server ==============
 get_prop(system_server, vendor_camera_prop)
+
+allow system_server app_zygote:process getpgid;
