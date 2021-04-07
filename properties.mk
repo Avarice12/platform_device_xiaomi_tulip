@@ -219,3 +219,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Zygote
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Set lmkd options
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.config.low_ram=false \
+    ro.lmk.log_stats=true \
+    ro.lmk.use_psi=false
