@@ -36,7 +36,6 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay-nad \
     $(DEVICE_PATH)/overlay-system
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
     $(DEVICE_PATH)/overlay-nad/lineage-sdk \
     $(DEVICE_PATH)/overlay-nad/packages/apps/Snap \
