@@ -147,6 +147,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.display.cabl=0 \
     vendor.display.disable_skip_validate=1 \
     vendor.display.enable_default_color_mode=1 \
+    vendor.display.idle_time=32767 \
     vendor.display.disable_scaler=1 \
     vendor.gralloc.enable_fb_ubwc=1 \
     ro.surface_flinger.use_smart_90_for_video=true \
