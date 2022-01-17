@@ -225,3 +225,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.low_ram=true \
     ro.lmk.log_stats=true \
     ro.lmk.use_psi=false
+
+# Watchdog
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.hw_timeout_multiplier=3
