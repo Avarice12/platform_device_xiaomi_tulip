@@ -128,6 +128,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.avoid_gfx_accel=true \
     debug.enable.sglscale=1 \
     debug.sf.disable_backpressure=1 \
     debug.sf.use_phase_offsets_as_durations=1 \
