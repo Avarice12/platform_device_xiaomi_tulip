@@ -1,6 +1,10 @@
+<p align="center" style="font-size:30px"><b>Device configurations for Redmi Note 6 Pro (tulip)</b></p>
+
 The Xiaomi Redmi Note 6 Pro (codenamed _"tulip"_) is a mid-range smartphone from Xiaomi announced in September 2018.
 
-## Device specifications
+![Xiaomi Redmi Note 6 Pro](https://telegra.ph/file/a5ac6ff5b58ef430fd104.png)
+
+<p align="center" style="font-size:30px"><b>Device specifications</b></p>
 
 | Device                  | Xiaomi Redmi Note 6 Pro                                     |
 | ----------------------- | :---------------------------------------------------------- |
@@ -19,10 +23,6 @@ The Xiaomi Redmi Note 6 Pro (codenamed _"tulip"_) is a mid-range smartphone from
 | Front camera 1          | 20 MP, f/2.0, 0.9µm                                         |
 | Front camera 2          | 2 MP, f/2.2, 1.75µm, depth sensor                           |
 
-
-## Device picture
-
-![Xiaomi Redmi Note 6 Pro](https://img.timesnownews.com/story/1544521578-Xiaomi_Redmi_Note_6_Pro_colours.jpg)
 
 ## Copyright
 
