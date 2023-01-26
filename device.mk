@@ -394,7 +394,8 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim \
-    libshim_dpmframework
+    libshim_dpmframework \
+    libpiex_shim
 
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
