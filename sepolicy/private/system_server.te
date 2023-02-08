@@ -35,3 +35,6 @@ allow system_server system_suspend:process getattr;
 allow system_server isolated_app:process getattr;
 allow system_server untrusted_app_25:process getattr;
 allow system_server keystore:process getattr;
+
+# Set tethering properties
+set_prop(system_server, device_config_tethering_prop)
