@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_tulip.mk
+    $(LOCAL_DIR)/nad_tulip.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_tulip-user \
-    derp_tulip-userdebug \
-    derp_tulip-eng
+    nad_tulip-user \
+    nad_tulip-userdebug \
+    nad_tulip-eng
